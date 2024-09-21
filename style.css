@@ -1,0 +1,47 @@
+.card{
+  display:grid;
+  grid-template-columns: auto auto ;
+  background-color:#03291f;
+  border: 4px solid rgb(3, 34, 25);
+  width:550px;
+  height:300px;
+  margin:150px 0px 0px 400px;
+  border-radius:8px;
+}
+.item{
+    border:0px solid black;
+    padding:10px;
+    
+}
+.logo{
+  grid-row-start: 1;
+  grid-row-end:8;
+  
+  
+}
+.name{
+ margin-right: 40px;
+ margin-top:20px;
+ text-align:center; 
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size:large;
+ color:white;
+ 
+}
+.list1{
+  list-style-type: none;
+  margin-right:100px;
+  margin-top: 40px; 
+  color:white;
+  
+}
+.list2{
+  list-style-type: none;
+  color:white;
+    
+}
+.list3{
+  list-style-type: none; 
+  color:white;
+}
+.cell
